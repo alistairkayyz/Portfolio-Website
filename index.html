@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+    <section class="navigation">
+        <nav>
+            <div class="left-menu" id="top">
+                <a href="#" class="logo">
+                    <div class="logo-icon"><span>A.</span></div>
+                    <div class="logo-text">Alistair</div>
+                </a>
+                <div class="menu-list">
+                    <ul class="menu-list">
+                        
+                        <p>MENU</p><br>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about" onclick="close()">About</a></li>
+                        <li><a href="#skillls" onclick="close()">Skills</a></li>
+                        <li><a href="#portfolio" onclick="close()">Portfolio</a></li>
+                        <li><a href="#">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="menu-open" onclick="toggleNav()">
+                <img id="open" src="images/menu.svg" alt="">
+            </div>
+            <div class="menu-close" onclick="toggleNav()">
+                <img id="close" src="images/close.svg" alt="">
+            </div>
+        </nav>
+        <div class="right-menu">
+            <div class="contact-btn">LET'S TALK</div>
+        </div>
+    </section>
+    <section class="header">
+        <a href="#" class="goto" onclick="goUp()">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+
+        <div class="illustrators-container">
+            <div class="blue-pentagons vector">
+                <img src="images/Pentagons-big.png" alt="">
+            </div>
+            <div class="blue-circles vector">
+                <img src="images/Circles.png" alt="">
+            </div>
+            <div class="blue-circles2 vector">
+                <img src="images/circles2.png" alt="">
+            </div>
+            <div class="white-dots vector">
+                <img src="images/dots-1.png" alt="">
+            </div>
+            <div class="white-circles vector">
+                <img src="images/circles-2.png" alt="">
+            </div>
+            <div class="blue-pentagon vector">
+                <img src="images/pentagon.png" alt="">
+            </div>
+            <div class="blue-triangle vector">
+                <img src="images/triangle.png" alt="">
+            </div>
+            <div class="three-lines vector">
+                <img src="images/lines.png" alt="">
+            </div>
+        </div>
+
+        <div class="header-container">            
+            <div class="header-content">
+                <div class="header-text">
+                    <div class="sm-heading">
+                        <span class="small-line"></span>
+                        <span class="hello-text">Hello There!</span>
+                    </div>
+                    <p class="h1">I'm Alistair. A developer and UI/UX Designer</p>
+                    <p class="p">I'm happy you are here today</p>
+                
+                    <div class="action-links">
+                        <div>
+                            <a class="view-portfolio" href="#">VIEW PORTFOLIO</a>
+                        </div>
+                        <div>
+                            <a class="whatsapp-me" href="#">Whatsapp me <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="big-illustrations">
+                    <img src="images/developers.svg" alt="Illustrations">
+                    <div class="author">
+                        <a href="https://www.freepik.com/vectors/people">Art by freepik.com</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-explore">
+                <div class="scroll-icon">
+                    <i class="fas fa-angle-double-down"></i>
+                </div>
+                <span>Scroll down <br>To explore</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="about-me" id="about">
+            <div class="bg-clip-path"></div>
+            <div class="stars-illustration">
+                <img src="images/Stars.png" alt="">
+            </div>
+            <div class="dots-illustration">
+                <img src="images/Dots.png" alt="">
+            </div>
+            <div class="blue-pentagons-2 vector">
+                <img src="images/Pentagons-big.png" alt="">
+            </div>
+            <div class="blue-circles-2 vector">
+                <img src="images/Circles.png" alt="">
+            </div>
+            <div class="container">
+                <div class="headings">
+                    <div class="main-sub-heading">let me introduce myself</div>
+                    <div class="main-heading">About me</div>
+                </div>
+                <div class="my-information">
+                    <div class="short-bio">
+                        <div class="sub-headings">Get to know about me</div>
+                        <p>
+                            Hello, my name Alistair Khano Khosa and I have a strong passion for design and development. I specialize in full-stack
+                            development including UI/UX design and my passion is all about building elegant and professional websites/web
+                            applications and user interfaces. I also do brand identity design such as logo design, letterhead, business card and
+                            other graphic design services.
+                        </p>
+                        <div class="sub-headings">Contact</div>
+                        <p>
+                            Do you fancy say hello to me? Feel free to contact me. <br>
+                            <b><a href="mailto:alistairkhosa@gmail.com">alistairkhosa@gmail.com</a></b>
+                        </p>
+
+                        <div class="action-buttons">
+                            <button class="contact-me">CONTACT ME</button>
+                            <button class="download-cv">DOWNLOAD CV</button>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="sub-headings">Skills</div>
+                        <div class="my-skills">
+                            <div class="sub-headings-2">Academic Skills</div>
+                            <div class="skills-list">
+                                <div class="skill-set">HTML</div>
+                                <div class="skill-set">CSS</div>
+                                <div class="skill-set">JavaScript</div>
+                                <div class="skill-set">PHP</div>
+                                <div class="skill-set">MySQL</div>
+                                <div class="skill-set">VB.Net</div>
+                                <div class="skill-set">C++</div>
+                                <div class="skill-set">C#</div>
+                                <div class="skill-set">Java</div><div class="skill-set">Mobile App Development</div>
+                            </div>
+                        </div>
+                        <div class="my-skills">
+                            <div class="sub-headings-2">Personal Skills</div>
+                            <div class="skills-list">
+                                <div class="skill-set">UI/UX Design in Adobe XD</div>
+                                <div class="skill-set">Graphic Design in Photoshop</div>
+                                <div class="skill-set">Version Control using GIT</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="skills-container" id="skills">
+            <div class="headings">
+                <div class="main-sub-heading">What I can do</div>
+                <div class="main-heading">Skills</div>
+            </div>
+            <div class="skills-wrapper">
+                <div class="skills-card blue-card">
+                    <i class="fas fa-tasks"></i>
+                    <div class="card-heading">UI/UX Design</div>
+                    <div class="card-sub-heading">Iconic | Memorable | Professional</div>
+                    <div class="card-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident iste, dicta sed sequi labore odio vitae enim ea. Dolores dolore illo neque esse asperiores aperiam.
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <div class="card-heading">Web Development</div>
+                    <div class="card-sub-heading">Dynamic | Innovative | Powerful</div>
+                    <div class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, corrupti? Dolore neque voluptas adipisci eius et! Laudantium eveniet neque, ratione molestiae suscipit unde quibusdam dolorem libero veniam vero beatae.
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <i class="fas fa-palette"></i>
+                    <div class="card-heading">Web Design</div>
+                    <div class="card-sub-heading">Responsive | Effective | Contemporary</div>
+                    <div class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptates voluptatem dolorum officia distinctio quaerat vero optio accusamus, magni blanditiis harum debitis.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+ <section>
+        <div class="portfolio" id="portfolio">
+            <div class="bg-clip-path"></div>
+            <div class="big-dots-illustration">
+                <img src="images/Dots2.png" alt="">
+            </div>
+            <div class="portfolio-container">
+                <div class="headings">
+                    <div class="main-sub-heading">Some of my recent projects</div>
+                    <div class="main-heading">Portfolio</div>
+                </div>
+                <div class="projects">
+                    <div class="portfolio-project">
+                        <div class="project-img">
+                            <img src="images/project.png" alt="">
+                        </div>
+                        <div class="project-heading">Music Website</div>
+                        <div class="project-title">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam architecto nemo ipsum, dolore sapiente iste.
+                            Dolorem laudantium eum pariatur in!
+                        </div>
+                        <div class="see-live-button">
+                            <a href="#">SEE LIVE</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-project">
+                        <div class="project-img">
+                            <img src="images/project.png" alt="">
+                        </div>
+                        <div class="project-heading">Music Website</div>
+                        <div class="project-title">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam architecto nemo ipsum, dolore sapiente
+                            iste.
+                            Dolorem laudantium eum pariatur in!
+                        </div>
+                        <div class="see-live-button">
+                            <a href="#">SEE LIVE</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-project">
+                        <div class="project-img">
+                            <img src="images/project.png" alt="">
+                        </div>
+                        <div class="project-heading">Music Website</div>
+                        <div class="project-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos unde corrupti beatae excepturi! Consequatur, numquam eligendi.
+                        </div>
+                        <div class="see-live-button">
+                            <a href="#">SEE LIVE</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-project">
+                        <div class="project-img">
+                            <img src="images/project.png" alt="">
+                        </div>
+                        <div class="project-heading">Music Website</div>
+                        <div class="project-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ex minima necessitatibus soluta, odit architecto maiores cumque sed consequuntur aliquid totam ratione corporis accusamus? Doloremque.
+                        </div>
+                        <div class="see-live-button">
+                            <a href="#">SEE LIVE</a>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="more-projects">
+                    <a href="#">
+                        More Projects 
+                        <i class="fas fa-angle-double-right"></i>
+                    </a>
+                </div>                
+            </div>
+        </div>
+    </section>
+ 
+    <section>
+        <div class="contact" id="contact">
+            
+            <div class="contact-container">
+                <div class="headings">
+                    <div class="main-sub-heading">Let's have a chat</div>
+                    <div class="main-heading">Contact me</div>
+                </div>
+                <div class="contact-form">
+                    <form action="" method="post">
+                        <p>Contact form</p>
+                        <label for="name">* Your Name:</label><br>
+                        <input type="text" name="name" id="" required><br>
+
+                        <label for="email">* Your Email Address:</label><br>
+                        <input type="email" name="email" id=""><br>
+
+                        <label for="company">Company Name(<i>optional</i>):</label><br>
+                        <input type="text" name="company" id=""><br>
+
+                        <label for="message">Message:</label><br>
+                        <textarea name="message" id="" cols="30" rows="6"></textarea><br>
+                        <div class="form-action">
+                            <button type="submit">Send</button>
+                            <span>
+                                or 
+                                <a href="#">
+                                    <i class="fab fa-whatsapp"></i>
+                                    Whatsapp Now
+                                </a>
+                            </span>
+                        </div>
+
+                    </form>
+                    <div class="contact-details">
+                        <h3>Contact Details</h3>
+                        <div class="contacts">
+                            <i class="fas fa-phone-alt"></i>
+                            (+27) 63 185 7452
+                        </div>
+                        <div class="contacts">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:alistairkhosa@gmail.com">alistairkhosa@gmail.com</a>
+                        </div>
+                        <div class="contacts">
+                            <i class="fab fa-whatsapp"></i>
+                            084 646 8960
+                        </div>
+                        <div class="google-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7159.494666340251!2d28.050062825231606!3d-26.204896333749986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950e858c90a557%3A0xfac7a4bcd5eba52e!2sEyethu%20House!5e0!3m2!1sen!2sza!4v1615539121832!5m2!1sen!2sza"
+                                width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="js/main.js"></script>
+</html>
